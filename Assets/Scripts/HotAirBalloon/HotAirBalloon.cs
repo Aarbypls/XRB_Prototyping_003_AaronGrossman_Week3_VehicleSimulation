@@ -7,11 +7,13 @@ public class HotAirBalloon : MonoBehaviour
     [SerializeField] private bool _isIgnited = false;
     [SerializeField] private GameObject _xrRig;
     [SerializeField] private GameObject _fire;
+
+    private AudioSource _audioSource;
     
     // Start is called before the first frame update
     void Start()
     {
-        
+        _audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -30,11 +32,16 @@ public class HotAirBalloon : MonoBehaviour
     public void UpdateIgnitionStatus(bool isIgnited)
     {
         _isIgnited = isIgnited;
-        _fire.SetActive(isIgnited);
 
         if (isIgnited)
         {
+            _fire.SetActive(true);
+            _audioSource.Play();
             GetComponent<Rigidbody>().AddForce(Vector3.up * 10f, ForceMode.Acceleration);
+        }
+        else
+        {
+            _audioSource.Stop();
         }
     }
 

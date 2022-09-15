@@ -23,9 +23,9 @@ The following sounds were used for this media project:
 - Fireplace Sound Loop by PagDev, from opengameart.org
 
 The following music was used for this media project:
-Music: Untouched Land by Alexander Nakarada
-Free download: [https://filmmusic.io/song/9714-untouched-land](https://filmmusic.io/song/9714-untouched-land)
-License (CC BY 4.0): [https://filmmusic.io/standard-license](https://filmmusic.io/standard-license)
-Artist website: [https://www.serpentsoundstudios.com/](https://www.serpentsoundstudios.com/)
+- Music: Untouched Land by Alexander Nakarada
+- Free download: [https://filmmusic.io/song/9714-untouched-land](https://filmmusic.io/song/9714-untouched-land)
+- License (CC BY 4.0): [https://filmmusic.io/standard-license](https://filmmusic.io/standard-license)
+- Artist website: [https://www.serpentsoundstudios.com/](https://www.serpentsoundstudios.com/)
 
 Additionally, the joystick was created with the following tutorial by Mr.Pineapple Studio, with a few minor tweaks: [https://www.youtube.com/watch?v=pPDIFBxX7Gs](https://www.youtube.com/watch?v=pPDIFBxX7Gs)

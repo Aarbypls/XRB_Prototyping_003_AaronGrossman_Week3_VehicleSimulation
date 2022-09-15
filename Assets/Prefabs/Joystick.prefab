@@ -255,8 +255,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   topOfJoystick: {fileID: 4723606663761356151}
-  forwardBackwardTilt: 0
-  sideToSideTilt: 0
+  _hotAirBalloon: {fileID: 0}
+  _forwardBackwardTilt: 0
+  _sideToSideTilt: 0
+  _movementSpeed: 0.5
+  _rotationSpeed: 10
 --- !u!1 &4723606663761356150
 GameObject:
   m_ObjectHideFlags: 0
@@ -269,6 +272,7 @@ GameObject:
   - component: {fileID: 4723606663761356154}
   - component: {fileID: 4723606663761356153}
   - component: {fileID: 4723606663761356152}
+  - component: {fileID: 1281035569488582878}
   m_Layer: 0
   m_Name: Top
   m_TagString: Untagged
@@ -350,5 +354,18 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!135 &1281035569488582878
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4723606663761356150}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5000003
+  m_Center: {x: 0, y: 0.000030517578, z: 0}
